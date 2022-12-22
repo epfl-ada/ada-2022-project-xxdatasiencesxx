@@ -25,7 +25,7 @@ It must be noted that the dataset used goes to the year 2013, and as many change
 
 ## Proposed additional datasets
 
-- [ImdB crew dataset](https://datasets.imdbws.com/). The issue with this dataset is that it does not contain movies released before 1980.
+- [ImdB crew dataset](https://datasets.imdbws.com/). We need to deal with the fact that it does not contain movies released before 1980.
 
 - [Directors' and writers' gender](https://github.com/taubergm/HollywoodGenderData/blob/master/all_directors_gender.csv)
 
@@ -57,7 +57,7 @@ It must be noted that the dataset used goes to the year 2013, and as many change
     2. In terms of the gender of the crew <br>
       First, a naive Matt-Whitney U test is performed to compare revenue for each gender as part of the crew. Then, we perform the same test after matching movies using propensity scores to mitigate the effect of confounding variables.
 4. NLP <br>
-  The NLP processed summaries are parsed. First, all the mentionings of the characters are retrieved thanks to coreference resolution. We filter all the coreferences with does not involve PERSON entities (characters). Once all the characters' mentionings are found, the interesting dependencies (amod, appos, nsubj…) involving the characters found are retrieved [4].
+  The NLP processed summaries are parsed. First, all the mentionings of the characters are retrieved thanks to coreference resolution. We filter out all the coreferences with does not involve PERSON entities (characters). Once all the characters' mentionings are found, the interesting dependencies (amod, appos, nsubj…) involving the characters found are retrieved [4].
 
 
 
