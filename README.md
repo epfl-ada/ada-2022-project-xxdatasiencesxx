@@ -35,9 +35,9 @@ It must be noted that the dataset used goes to the year 2013, and as many change
 ## Methods
 1. Genders and ethnicities of the actors
     1. Movie revenue distribution in main character database versus cmu movies <br>
-      Independent Student test to evaluate any bias on the revenue before merging the CMU data with the main characters data on the revenue.
+      Performing independent Student test to evaluate any bias on the revenue before merging the CMU data with the main characters data on the revenue.
     2. Genre distribution in cmu database versus main character database <br>
-      Independent Student test to evaluate any bias on the genre distribution before merging the CMU data with the main characters data on the revenue.
+      Performing independent Student test to evaluate any bias on the genre distribution before merging the CMU data with the main characters data on the revenue.
     3. Are movies genres and gender of the lead role related? <br>
       Showing the raw distributions of lead roles for male/female first. Then compute the difference between the real distribution of lead roles and a uniform distribution of roles. Chi-squared test are computed to confirm the biases in the lead roles.
     4. Adding the ethnicity of actors <br>
@@ -56,7 +56,7 @@ It must be noted that the dataset used goes to the year 2013, and as many change
       First, a naive Matt-Whitney U test is performed to compare revenue for each gender as lead role. Then, we perform the same test after matching movies using propensity scores to mitigate the effect of confounding variables.
     2. In terms of the gender of the crew <br>
       First, a naive Matt-Whitney U test is performed to compare revenue for each gender as part of the crew. Then, we perform the same test after matching movies using propensity scores to mitigate the effect of confounding variables.
-4. NLP
+4. NLP <br>
   The NLP processed summaries are parsed. First, all the mentionings of the characters are retrieved thanks to coreference resolution. We filter all the coreferences with does not involve PERSON entities (characters). Once all the characters' mentionings are found, the interesting dependencies (amod, appos, nsubj…) involving the characters found are retrieved [4].
 
 
