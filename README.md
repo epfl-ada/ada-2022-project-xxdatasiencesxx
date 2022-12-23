@@ -75,8 +75,8 @@ It must be noted that the dataset used goes to the year 2013, and as many change
 
 ## Organization within the team
 
-- Esha: Analysis of actor casting and plotting
-- Julia: Conception of the website and analysis of crew data
+- Esha: Analysis/plotting of the actor cast
+- Julia: Conception of the website and analysis/plotting of crew data
 - Pierre: Parsing of the NLP XMLs and redaction of README
 - Léo: Post-processing and plotting of the NLP results
 
