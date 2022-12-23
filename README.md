@@ -81,7 +81,7 @@ It must be noted that the dataset used goes to the year 2013, and as many change
 - Esha: Analysis of actor casting and plotting
 - Julia: Conception of the website and analysis of crew data
 - Pierre: Parsing of the NLP XMLs and redaction of README
-- Léo: Post-processing and plotting of the NLP results
+- Léo: Analysis and plotting of the NLP results, notebook review and editing.
 
 ## Sources
 
