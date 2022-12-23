@@ -47,9 +47,9 @@ It must be noted that the dataset used goes to the year 2013, and as many change
     1. Data preprocessing <br>
       Retrieval of movies with women as director or/and writer.
     2. Are the proportions of movies with women in the crew or created by men different ? <br>
-      Computation of proportions.
+      Computation of proportions. Perform a Mann-Whitney U test.
     3. Does the proportion of movies with women in the crew change with time ? <br>
-      Plotting time series of proportions.
+      Plotting time series of proportions. Perform an ADF test to determine if the timeseries is stationnary. 
 
 3. Revenue comparisons
     1. In terms of the gender of the main actor <br>
