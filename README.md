@@ -1,7 +1,6 @@
 # The Outcasts of Hollywood
 
 The datastory is available here: julia-walti.github.io/Ada_Project_Site
-We noticed some bugs when using safari, we advise you to use Firefox.
 
 ## Abstract
 
