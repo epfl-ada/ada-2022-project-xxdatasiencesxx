@@ -57,10 +57,11 @@ It must be noted that the dataset used goes to the year 2013, and as many change
     2. In terms of the gender of the crew <br>
       First, a naive Matt-Whitney U test is performed to compare revenue for each gender as part of the crew. Then, we perform the same test after matching movies using propensity scores to mitigate the effect of confounding variables.
 4. NLP <br>
-      The NLP processed summaries are parsed. First, all the mentionings of the characters are retrieved thanks to coreference resolution. We filter out all the coreferences with does not involve PERSON entities (characters). Once all the characters' mentionings are found, the interesting dependencies (amod, appos, nsubj…) involving the characters found are retrieved [4].
-      1. Most common dependencies used to describe each group in gender and ethnicities are plotted. <br>
-      2. Dependencies are grouped in lexical fields. Groups are then compared over which lexical fields are most used to describe their characters. <br>
-      Notably, each lexical groups is analyzed for potential bias towards gender and ethnic groups.
+      1. The NLP processed summaries are parsed. 
+      2. All the mentionings of the characters are retrieved thanks to coreference resolution. All the coreferences with does not involve PERSON entities (characters) are filtered out. <br>
+      3. Once all the characters' mentionings are found, the interesting dependencies (amod, appos, nsubj…) involving the characters found are retrieved [4]. <br>
+      4. Most common dependencies used to describe each group in gender and ethnicities are plotted. <br>
+      5. Dependencies are grouped in lexical fields. Groups are then compared over which lexical fields are most used to describe their characters. Notably, each lexical groups is analyzed for potential bias towards gender and ethnic groups. <br>
 
 
 ## Proposed timeline
