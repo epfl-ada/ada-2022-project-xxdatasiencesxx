@@ -25,11 +25,11 @@ It must be noted that the dataset used goes to the year 2013, and as many change
 
 ## Proposed additional datasets
 
-- [ImdB crew dataset](https://datasets.imdbws.com/). We need to deal with the fact that it does not contain movies released before 1980.
+- [ImdB crew dataset](https://datasets.imdbws.com/). 
 
 - [Directors' and writers' gender](https://github.com/taubergm/HollywoodGenderData/blob/master/all_directors_gender.csv)
 
-- [Main actors and budget dataset](https://www.kaggle.com/datasets/danielgrijalvas/movies)
+- [Main actors and budget dataset](https://www.kaggle.com/datasets/danielgrijalvas/movies) We need to deal with the fact that it does not contain movies released before 1980.
 
 
 ## Methods
